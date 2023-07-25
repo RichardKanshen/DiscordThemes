@@ -9,3 +9,39 @@
  * @website https://kanshen.click
  * @source https://github.com/RichardKanshen/DiscordThemes/tree/main/osu!theme
  */
+
+ .theme-dark {
+     --background-primary: #382e32 !important;
+     --background-secondary: #2a2226 !important;
+     --background-tertiary: #241C20 !important;
+
+     --background-secondary-alt: #1B1317 !important;
+
+     --channeltextarea-background: var(--background-secondary-alt);
+     --input-background: var(--background-secondary-alt);
+     --deprecated-card-bg: var(--background-secondary-alt);
+     --modal-background: var(--background-tertiary);
+
+     --profile-body-background-color: var(--background-secondary-alt);
+
+     --scrollbar-auto-scrollbar-color-track: var(--background-secondary);
+     --scrollbar-auto-track: var(--background-secondary);
+     --scrollbar-thin-track: var(--background-secondary);
+     --scrollbar-auto-scrollbar-color-thumb: var(--background-secondary-alt);
+     --scrollbar-auto-thumb: var(--background-secondary-alt);
+     --scrollbar-thin-thumb: var(--background-secondary-alt);
+ }
+
+ .theme-dark .paymentPane-ut5qKZ, .theme-dark .paginator-1eqD2g, .theme-dark .codeRedemptionRedirect-2hYMSQ, .theme-dark .footer-IubaaS {
+     background-color: var(--background-secondary-alt);
+ }
+
+ .theme-dark .payment-2bOh4k {
+     background-color: var(--background-secondary);
+ }
+
+ .theme-dark .userProfileInnerThemedNonPremium-2AJg-H {
+     background: var(--background-secondary);
+     --scrollbar-thin-thumb: var(--background-secondary);
+     --scrollbar-thin-track: var(--background-secondary-alt);
+ }
