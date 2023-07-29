@@ -1,0 +1,246 @@
+/**
+ * @name modern.theme
+ * @author kanshen.uwu
+ * @description a complete redesign of discord's layout
+ * @version 1.0
+ * @authorId 533304170355228672
+ * @authorLink https://www.threads.net/@richard._.kanshen
+ * @donate https://paypal.me/richardkanshen
+ * @website https://kanshen.click
+ * @source https://github.com/RichardKanshen/DiscordThemes/tree/main/modern.kanshen
+ */
+
+div.avatarWrapper-1B9FTW {
+    border-radius: 12px !important;
+    padding-left: 8px;
+    margin-right: 7px !important;
+    margin-left: 8px !important;
+}
+
+div.container-YkUktl {
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    z-index: 10 !important;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 15px;
+    padding-right: 0;
+    justify-content: space-between;
+}
+
+div.container-YkUktl button {
+    border-radius: 12px;
+}
+
+div.container-YkUktl {
+    width: 134px !important;
+}
+
+section.panels-3wFtMD:hover>div.container-YkUktl {
+    width: 240px !important;
+}
+
+div.container-YkUktl {
+    overflow: hidden;
+    transition: width 0.22s ease 0s;
+}
+
+div.accountProfilePopoutWrapper-3GskID, div#popout_24.layer-2BGhQ8 {
+    position: fixed;
+    right: 10px !important;
+    left: unset !important;
+    top: 90px !important;
+}
+
+div.container-6sXIoE.withTimeline-824fT_ {
+    position: relative;
+    top: 50px;
+    background: inherit;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 248px;
+    margin-top: 10px;
+}
+
+div.inner-WRV6k5 {
+    max-width: 232px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+div.textScroller-dc9_kz {
+    max-width: 100% !important;
+    text-align: center;
+}
+
+div.textScroller-dc9_kz>div {
+    width: 100% !important;
+}
+
+div.size12-12FL_s.subtext-2HDqJ7.interpret-F93iqP {
+    text-align: center !important;
+}
+
+div.popout-xwjvsX.themedPopout-1TrfdI.popoutArrow-g8f4Ss.popoutArrowTop-lK9F3a {
+    position: absolute;
+    right: 21px !important;
+    top: 5px !important;
+}
+
+section.container-ZMc96U.themed-Hp1KC_ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: fit-content;
+    position: fixed;
+    top: 30px;
+    left: 320px;
+    background: transparent;
+    padding: 0;
+}
+
+div.children-3xh0VB {
+    z-index: 10 !important;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    padding: 0 20px;
+    justify-content: flex-start;
+    height: 52px;
+    background: var(--background-secondary-alt);
+    width: fit-content;
+    margin-right: 10px;
+}
+
+.children-3xh0VB:after {
+    display: none;
+}
+
+div#bd-notices {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 320px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    z-index: 666;
+}
+
+div.bd-notice {
+    display: flex;
+    flex-direction: column;
+    min-height: 70px;
+    line-height: initial;
+    border-radius: 10px !important;
+    padding: 15px 5px 15px 5px;
+    height: fit-content;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+strong#outdated-plugins {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+button.bd-notice-button {
+    margin: 0;
+}
+
+div.toolbar-3_r2xA>*:not(:last-child):after {
+    width: 1px;
+    height: 24px;
+    margin: 0 8px 0 8px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    background: var(--background-modifier-accent);
+    content: "";
+}
+
+div.toolbar-3_r2xA * {
+    display: flex;
+    margin: 0;
+}
+
+div.toolbar-3_r2xA {
+    z-index: 10 !important;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    padding: 0 20px;
+    justify-content: space-between;
+    height: 52px;
+    background: var(--background-secondary-alt);
+    width: fit-content;
+}
+
+div.toolbar-3_r2xA div.divider-q3P9HC {
+    display: none;
+}
+
+aside.profilePanel-2VBkh8 {
+    overflow: hidden scroll;
+    padding-right: 0px;
+    height: fit-content;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+
+div.chat-2ZfjoI {
+    background-color: var(--background-tertiary);
+}
+
+main.chatContent-3KubbW {
+    height: calc(100% - 100px);
+    width: calc(100% - 330px);
+    position: fixed;
+    top: 90px;
+    left: 320px;
+    border-radius: 12px;
+}
+
+
+
+
+section.panels-3wFtMD {
+    overflow: hidden !important;
+    display: flex;
+    flex-direction: row-reverse;
+
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    z-index: 10 !important;
+    height: 2px;
+    width: 142px;
+    background: var(--background-secondary-alt);
+    border-radius: 15px;
+    padding-bottom: 48px;
+
+    transition: width 0.22s ease 0s, height 0.22s ease 0s;
+}
+
+section.panels-3wFtMD:hover {
+    height: fit-content;
+    width: 248px;
+
+    transition: width 0.22s ease 0s, height 0.22s ease 0s;
+}
